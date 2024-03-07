@@ -1,0 +1,14 @@
+.message-received-container {
+  width: 100%;
+  display: inline-block;
+}
+
+.message-received-bubble {
+  max-width: 60%;
+  word-wrap: break-word;
+  border-radius: 5px;
+  background-color: rgb(219, 219, 219);
+  color: black;
+  padding: 5px 10px;
+  margin: 5px 0px;
+}

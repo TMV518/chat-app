@@ -3,6 +3,7 @@ import classes from "./SignUpPage.module.css";
 import RegisterForm from "./RegisterForm";
 import LoginForm from "./LoginForm";
 
+/*Contains forms for registering and logging in*/
 const SignUpPage = () => {
   const [registerForm, setRegisterForm] = useState(true);
 

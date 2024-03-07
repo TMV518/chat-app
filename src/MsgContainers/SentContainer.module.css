@@ -1,0 +1,15 @@
+.message-sent-container {
+  width: 100%;
+  display: inline-block;
+}
+
+.message-sent-bubble {
+  max-width: 60%;
+  word-wrap: break-word;
+  float: right;
+  border-radius: 5px;
+  background-color: rgb(173, 63, 207);
+  color: white;
+  padding: 5px 10px;
+  margin: 2.5px 0px;
+}
