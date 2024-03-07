@@ -1,0 +1,36 @@
+.signup-pg {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logo-section {
+  color: rgb(173, 63, 207);
+  text-align: center;
+  font-size: 2vw;
+}
+
+.logo {
+  line-height: 12vw;
+  font-size: 8vw;
+}
+
+@media only screen and (max-width: 800px) {
+  .signup-pg {
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 10px;
+  }
+  .logo-section {
+    font-size: 5vw;
+  }
+  .logo {
+    line-height: 15vw;
+    font-size: 12vw;
+  }
+  .login-box {
+    width: 70vw;
+    border: none;
+  }
+}
