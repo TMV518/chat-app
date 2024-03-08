@@ -2,20 +2,12 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.banner {
-  position: fixed;
-  width: 100vw;
-  background-color: rgb(173, 63, 207);
-  color: white;
-  padding: 10px;
-}
-
 .view-chats {
   display: flex;
   height: 100vh;
 
   /*this is done for banner*/
-  /*padding-top: 38.5px;*/
+  padding-top: 48.5px;
 }
 
 /*****/

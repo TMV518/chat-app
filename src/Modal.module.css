@@ -1,0 +1,62 @@
+.popup {
+  position: fixed;
+  top: 30vh;
+  left: 25%;
+  width: 80%;
+  z-index: 100;
+  overflow: hidden;
+  width: 50vw;
+  font-family: inherit;
+  background-color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(117, 117, 117);
+  padding: 5px;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.14);
+}
+
+.top-bar {
+  border-bottom: 2px solid rgb(173, 63, 207);
+}
+
+.top-bar > button {
+  color: rgb(173, 63, 207);
+  background-color: white;
+  border: none;
+  height: 100%;
+}
+
+.top-bar > button:hover {
+  cursor: pointer;
+  background-color: rgb(240, 240, 240);
+}
+
+.header {
+  margin: 0;
+  color: white;
+}
+
+@media only screen and (max-width: 800px) {
+  .popup {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .top-bar > button {
+    font-size: 8vw;
+  }
+
+  .popup > header {
+    font-size: 8vw;
+  }
+}

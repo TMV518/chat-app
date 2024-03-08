@@ -7,13 +7,18 @@ import SentContainer from "./MsgContainers/SentContainer";
 import ReceivedContainer from "./MsgContainers/ReceivedContainer";
 import ChatInput from "./ChatInput/ChatInput";
 import FriendsGroups from "./FriendsGroups/FreiendsGroups";
+import Banner from "./Banner/Banner";
+import Modal from "./Modal";
+import AddFriend from "./AddFriend/AddFriend";
 
 function App() {
   return (
     <div className={classes.App}>
       {/*<SignUpPage />*/}
-      {/*<div className={classes.banner}>SmallTalk</div>*/}
 
+      <Banner />
+
+      <AddFriend />
       <div className={classes["view-chats"]}>
         <FriendsGroups />
         <div className={classes["chat-sect"]}>
