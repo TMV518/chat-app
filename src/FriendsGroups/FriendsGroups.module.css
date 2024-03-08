@@ -1,0 +1,19 @@
+.friends-groups-sect {
+  flex: 1;
+  width: 100%;
+  /*border: 2px solid red;*/
+  display: flex;
+  flex-direction: column;
+}
+
+.friends-groups-header {
+  /*border: 1px solid yellow;*/
+  padding: 5px;
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.friends-groups-list {
+  /*border: 1px solid purple;*/
+  overflow-y: scroll;
+  height: 100%;
+}

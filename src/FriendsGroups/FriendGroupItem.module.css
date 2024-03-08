@@ -1,0 +1,21 @@
+.friend-group-item {
+  display: flex;
+  align-items: center;
+  column-gap: 7px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.friend-group-item:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+.friend-groups-avatar {
+  width: 2.5vw;
+  height: 2.5vw;
+  min-width: 20px;
+  min-height: 20px;
+
+  /*border: 1px solid black;*/
+  border-radius: 50%;
+}

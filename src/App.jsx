@@ -6,24 +6,16 @@ import SignUpPage from "./AuthPage/SignUpPage";
 import SentContainer from "./MsgContainers/SentContainer";
 import ReceivedContainer from "./MsgContainers/ReceivedContainer";
 import ChatInput from "./ChatInput/ChatInput";
+import FriendsGroups from "./FriendsGroups/FreiendsGroups";
 
 function App() {
   return (
     <div className={classes.App}>
       {/*<SignUpPage />*/}
+      {/*<div className={classes.banner}>SmallTalk</div>*/}
+
       <div className={classes["view-chats"]}>
-        <div className={classes["friends-groups-sect"]}>
-          <div className={classes["friends-groups-header"]}>Chat</div>
-          <ul className={classes["friends-groups-list"]}>
-            <li>
-              Chat 1 vnwui enwio jweiojeo jfewiowj jeiwojweio cwen aaaaaa aa
-              bbbb hello hello
-            </li>
-            <li>Chat 2</li>
-            <li>Chat 3</li>
-            <li>Chat 4</li>
-          </ul>
-        </div>
+        <FriendsGroups />
         <div className={classes["chat-sect"]}>
           <div className={classes["chat-header"]}>My friend/Group</div>
           <div className={classes["messages"]}>

@@ -1,7 +1,7 @@
 .chat-input {
   width: 100%;
   flex: 1;
-  border: 2px solid orange;
+  /*border: 2px solid orange;*/
   display: flex;
   padding: 0 15px;
   align-items: center;
