@@ -10,6 +10,7 @@ import FriendsGroups from "./FriendsGroups/FreiendsGroups";
 import Banner from "./Banner/Banner";
 import Modal from "./Modal";
 import AddFriend from "./AddFriend/AddFriend";
+import ViewChats from "./ViewChats/ViewChats";
 
 function App() {
   return (
@@ -17,24 +18,25 @@ function App() {
       {/*<SignUpPage />*/}
 
       <Banner />
-
-      <AddFriend />
-      <div className={classes["view-chats"]}>
-        <FriendsGroups />
-        <div className={classes["chat-sect"]}>
-          <div className={classes["chat-header"]}>My friend/Group</div>
-          <div className={classes["messages"]}>
-            <SentContainer />
-            <ReceivedContainer />
-            <SentContainer />
-            <SentContainer />
-            <ReceivedContainer />
-            <SentContainer />
-            <SentContainer />
+      <div className={classes["profile-parent"]}>
+        <div className={classes.profile}>
+          <div className={classes["profile-info"]}>
+            <img
+              className={classes["profile-photo"]}
+              src="../src/assets/default_avatar_200x200.png"
+            />
+            <div className={classes["profile-name"]}>Michael Scott</div>
           </div>
-          <ChatInput />
+          <div className={classes["profile-options"]}>
+            <button>Add Friend</button>
+            <button>Block</button>
+          </div>
         </div>
       </div>
+      {/*<ViewChats />*/}
+
+      {/*<AddFriend />*/}
+
       {/*<a href="#">About</a>*/}
     </div>
   );
